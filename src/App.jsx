@@ -1,8 +1,9 @@
+import { Button } from "./components/ui/button";
 
 
 const app = () => {
   return (
-        <h1 className="text-red-500">hello world</h1>
+        <Button>Hello world</Button>
   );
 }
 
